@@ -26,7 +26,7 @@ export { createServer } from "node:net";
 // node
 import * as iconv_lite from "https://deno.land/x/jmordica_iconv_lite@v1.0.3/mod.ts";
 import { genfun } from "https://deno.land/x/jmordica_is_property@v1.0.1/mod.ts";
-import * as seq_queue from "https://deno.land/x/seq_queue/mod.ts";
+import * as seq_queue from "https://deno.land/x/jmordica_seq_queue@v1.0.1/mod.ts";
 // node
 
 // not-node

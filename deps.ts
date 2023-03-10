@@ -1,5 +1,5 @@
 
-export { Buffer } from "https://deno.land/std/node/buffer.ts";
+export { Buffer } from "node:buffer";
 export {
   Socket,
   connect,

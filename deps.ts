@@ -24,7 +24,7 @@ export { nextTick } from "node:process";
 export { createServer } from "node:net";
 
 // node
-import * as iconv_lite from "https://deno.land/x/iconv_lite/mod.ts";
+import * as iconv_lite from "https://deno.land/x/jmordica_iconv_lite@v1.0.3/mod.ts";
 import { genfun } from "https://deno.land/x/generate_function/mod.ts";
 import * as seq_queue from "https://deno.land/x/seq_queue/mod.ts";
 // node

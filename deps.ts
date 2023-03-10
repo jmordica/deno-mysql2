@@ -19,7 +19,7 @@ export {
   // createCredentials,
   randomBytes,
 } from "node:crypto";
-export type { ErrnoException } from "https://deno.land/std/node/internal/errors.ts";
+export type { ErrnoException } from "node:internal/errors";
 export { nextTick } from "node:process";
 export { createServer } from "node:net";
 

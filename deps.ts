@@ -4,24 +4,24 @@ export {
   Socket,
   connect,
   Stream,
-} from "https://deno.land/std/node/net.ts";
-export { EventEmitter } from "https://deno.land/std/node/events.ts";
-export { Readable } from "https://deno.land/std/node/stream.ts";
+} from "node:net";
+export { EventEmitter } from "node:events";
+export { Readable } from "node:stream";
 export {
   createSecureContext,
   TLSSocket,
-} from "https://deno.land/std/node/tls.ts";
-import zlib from "https://deno.land/std/node/zlib.ts";
-export { URL } from "https://deno.land/std/node/url.ts";
+} from "node:tls";
+import zlib from "node:zlib";
+export { URL } from "node:url";
 export {
   createHash,
   publicEncrypt,
   // createCredentials,
   randomBytes,
-} from "https://deno.land/std/node/crypto.ts";
+} from "node:crypto";
 export type { ErrnoException } from "https://deno.land/std/node/internal/errors.ts";
 export { nextTick } from "https://deno.land/std/node/_process/process.ts";
-export { createServer } from "https://deno.land/std/node/net.ts";
+export { createServer } from "node:net";
 
 // node
 import * as iconv_lite from "https://deno.land/x/iconv_lite/mod.ts";
